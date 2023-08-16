@@ -1,0 +1,131 @@
+.popup{
+	height: 100vh;
+	width: 100%;
+	background-color: rgba(0, 0, 0, 0.6);
+	transition: all 1s ease-in;
+	-webkit-transition: all 1s ease-in;
+	-moz-transition: all 1s ease-in;
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+
+.popup-tbl-container{
+	height: 90vh;
+	width: 94%;
+	margin-top: 5vh;
+	margin-left: 3%;
+	background-color: white;
+	border-radius: 2vh;	
+}
+.tbl{
+	margin-left: 3%;
+	width:94%;
+
+	cellpadding: 0;
+	cellspacing : 0;
+	font-family: 'Oswald', sans-serif;
+	border-radius: 1vh;
+	overflow: hidden;
+}
+.tbl tr td{
+	text-align: center;
+	height: 5vh;
+	width: 10%;
+	cursor: pointer;
+	border-bottom: .1vh solid rgba(0, 0, 0, 0.1);
+}
+
+.tblhead td{
+	background-color: rgba(0, 200, 150, 1.0);
+	height: 6vh;
+	font-weight: bold;
+}
+
+.tbl tbody tr:hover{
+	background-color: rgba( 255, 191, 0, 0.2);
+	transition: all 1s ease-in-out;
+	-webkit-transition: all 1s ease-in-out;
+	-moz-transition: all 1s ease-in-out;
+}
+
+.btnsp{
+	float: right;
+	margin-right: 3%;
+	font-weight: bold;
+	height:3vh;
+	margin-top:1vh;
+	background-color: lightseagreen;
+	border:none;
+	padding-left: 1%;
+	padding-right: 1%;
+	border-radius: 1vh;
+	overflow: hidden;
+}
+.btnsp:hover{
+	background-color: black;
+	color: white;
+}
+
+.tbl1{
+	margin-left: 10%;
+	width:70%;
+	font-family: 'Oswald', sans-serif;
+	border-radius: 1vh;
+}
+.tbl1 tr td{
+	text-align: center;
+	height: 8vh;
+	width: 10%;
+	cursor: pointer;
+}
+.tbl-input{
+	height: 4vh;
+	width: 120%;
+	border: .1vh solid rgba(0, 0, 0, 0.1);
+	float: left;
+	border-radius: 1vh;
+	font-family: 'Oswald', sans-serif;
+	font-size: 1.8vh;
+	}
+.submits{
+	display: block;
+	height: 5vh;
+	width: 40%;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: rgba( 255, 191, 0, 0.6);
+	border-radius: 1vh;
+	border: none;
+	}
+.submits:hover{
+	background-color: rgba( 255, 191, 0, 0.9);
+}
+.tbl-submit{
+	height: 5vh;
+	width: 40%;
+	background-color: rgba( 255, 191, 0, 0.3);
+	border-radius: 1vh;
+	border: none;
+	}
+
+.tbl-submit:hover{
+	background-color: rgba( 255, 191, 0, 0.6);
+}
+
+.swap-btn{
+	height:5vh;
+	width:10%;
+	position:fixed;
+	top:1vh;
+	left:40%;
+	border:.2vh solid black;
+	text-align: center;
+	line-height:5vh;
+	cursor: pointer;
+}
+
+.swap-btn:hover{
+	background-color: white;
+}
+

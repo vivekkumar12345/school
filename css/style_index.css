@@ -1,0 +1,152 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+
+
+.head_login{
+
+	height: 100vh;
+	widows: 100%;
+	background-color: rgba(0, 0, 150, 0.4);
+}
+
+.login-container{
+	position: fixed;
+	height: 70vh;
+	top: 15vh;
+	width: 70%;
+	left: 15%;
+	background-color: rgba(255, 255, 255, 0.7);
+	border-radius: 2vh;
+	box-shadow: 2vh 2vh 5vh rgba(0, 0, 0, 0.4);
+	overflow: hidden;
+	border:.7vh solid white;
+}
+
+.login-container-left{
+	height: 100%;
+	width: 40%;
+	float: left;
+	background-color: mediumpurple;
+	border-radius: 2vh;
+}
+
+.login-container-left img{
+	width: 100%;
+	height: auto;
+	padding-top: 10vh;
+}
+
+.login-container-right{
+	height: 100%;
+	width: 55%;
+	float: right;
+}
+
+.login-tbl{
+	width: 90%;
+	margin-top: 10vh;
+	margin-left: 5%;
+	text-align: center;
+}
+
+.login-tbl tr td{
+	text-align: center;
+	font-family: monospace;
+	height: 8vh;
+
+}
+
+.input-login{
+height: 5vh;
+width: 50%;
+border-radius: 1vh;
+border:.1vh solid lightgray;
+padding-left: 2%;
+}
+
+
+.input-login-btn{
+font-size: 1.8vh;
+height: 5vh;
+width: 50%;
+border-radius: 1vh;
+border:.1vh solid lightgray;
+padding-left: 2%;
+background-color: #E51692;
+color: white;
+-webkit-transition:background-color 1s ease-out;
+-moz-transition:background-color 1s ease-out;
+-o-transition:background-color 1s ease-out;
+transition: background-color 1s ease-out;
+}
+
+.input-login-btn:hover{
+	background-color: mediumpurple;
+}
+.mob-image{
+	display: none;
+}
+
+
+
+
+@media only screen and (max-width : 600px){
+
+
+	.login-container-left{ display:none; }
+
+	.head_login{
+		background-color: white;
+	}
+	.login-container{
+		top: 0;
+		left: 0;
+		height: 100vh;
+		width: 100%;
+		border: none;
+		border-radius: 0;
+		background-color: white;
+	}
+	.login-container-right{
+		height: 100%;
+		width: 100%;
+		float: none;
+		background-color: white;
+	}
+	.login-tbl{
+		background-color: white;
+		width: 100%;
+		margin-left: 0;
+		border-top-right-radius: 10vh;
+		margin-top: 0;
+	}
+
+	.mob-image{
+	display: block;
+	background-color: mediumpurple;
+	border-bottom-left-radius: 20%;
+	height: 50vh;
+	width: 100%;
+	text-align: right;
+}
+.aa{
+	display: none;
+}
+.mob-image img{
+	padding-top: 5vh;
+	width: 80%;
+	height: auto;
+}
+
+.input-login, .input-login-btn{
+	width: 70%;
+}
+}
+
+
+
+
+
+

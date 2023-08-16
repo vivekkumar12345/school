@@ -1,0 +1,45 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+
+.tables {
+	width: 96%;
+	margin-left: 2%;
+	margin-top: 1vh;
+	border-collapse: collapse;
+	border-top-left-radius: 1vh;
+	border-top-right-radius: 1vh;
+	overflow: hidden;
+
+}
+.tables thead tr td {
+	height: 6vh;
+	text-align: center;
+	font-family: arial;
+	background-color: rgba(255, 191, 0, 0.2);
+	color: rgba(0, 0, 0, 0.7);
+	font-weight: bold;
+	font-size: 1.5vh;
+
+}
+.tables thead tr{
+		border: .1vh inset rgba(255, 191, 0, 0.6);
+}
+
+.tables tbody tr td {
+	height: 6vh;
+	text-align: center;
+	font-family: arial;
+	background-color: lightgray;
+	color: rgba(0, 0, 0, 0.7);
+	font-weight: bold;
+	font-size: 1.5vh;
+
+}
+.tables tbody tr{
+	border: .2vh inset rgba(0, 0, 0, 0.2);
+}
+.tables tbody{
+	overflow-y: scroll;
+}
