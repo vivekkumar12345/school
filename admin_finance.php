@@ -10,7 +10,7 @@
 <link rel="stylesheet" href="css/dashboard_admin.css" >
 <link rel="stylesheet" href="css/popups.css" >
 </head>
-<body onload="dis()">
+<body onload="dis()" background="white">
 <?php
 	session_start();
 include 'dashboard_admin_left.php';
